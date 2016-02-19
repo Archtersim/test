@@ -5,7 +5,7 @@
 int main(){
 	int a,b,c;
 	float x1,x2;
-	printf("Input CKA a,b,c: ");
+	printf("Input a,b,c: ");
 	scanf("%d %d %d",&a,&b,&c);
 	float t=pow((b*b-4*a*c),0.5);
 	x1=(-1*b+t)/2*a;
